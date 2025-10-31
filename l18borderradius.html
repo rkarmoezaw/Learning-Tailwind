@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Tailwind CSS | Border and Border Width</title>
+    <style>
+      .div {
+        width: 400px;
+        margin: 10px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div border-5 border-indigo-500 rounded-xs">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-t-5 border-indigo-500 rounded-sm">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-b-5 border-indigo-500 rounded-md">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-l-5 border-indigo-500 rounded-lg">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-r-5 border-indigo-500 rounded-xl">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-x-5 border-indigo-500 rounded-2xl">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-y-5 border-indigo-500 rounded-3xl border-double">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-s-5 border-indigo-500 rounded-4xl border-dotted">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div border-e-5 border-indigo-500 rounded-full border-dashed">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-3 divide-x-4">
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+    </div>
+
+    <div class="divide-slate-700 divide-y-4">
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+      <div class="div">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit illo nihil quibusdam,</p>
+      </div>
+    </div>
+    <div class="flex flex-col-reverse divide-y-4 divide-y-reverse divide-gray-200">
+      <div>01</div>
+      <div>02</div>
+      <div>03</div>
+    </div>
+  </body>
+</html>
